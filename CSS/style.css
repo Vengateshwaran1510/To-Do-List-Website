@@ -1,0 +1,75 @@
+html,
+body{
+    margin:0;
+    background-image: url("https://conceptfirst.com.sg/wp-content/uploads/2021/11/Blog-Images-4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#wrapper h2{
+display: flex;
+justify-content: center;
+}
+h2{
+    color : goldenrod;
+    letter-spacing: 1px;
+}
+input{
+      border-radius: 5px;
+      border: 2px solid black;
+      margin-top: 30px;
+      height: 2.5em;
+      width:250px;
+      padding-left: 10px;
+}
+input:active{
+    border:none;
+}
+#wrapper{
+    height: 500px;
+    width: 400px;
+    margin:200px auto;
+    background-image: url("https://th.bing.com/th/id/OIP.fWb51Q3o72ZnF1hygAvhEwAAAA?rs=1&pid=ImgDetMain");
+    background-repeat: no repeat;
+    background-size: cover;
+    padding: 30px;
+}
+button{
+    margin-top:20px;
+    background-color: #ffeba7;
+    border-radius:4px;
+    height:44px;
+    font-weight: 600;
+    padding:0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: #102770;
+}
+button:hover{
+    cursor: pointer;
+}
+#todolist{
+    color:orangered;
+    font-size: 28px;
+    margin-top: 10px;
+}
+#todolist p{
+    margin: 10px 0px;
+}
+#todolist list p:hover{
+    cursor: pointer;
+}
+.todo-item span {
+    flex: 1;
+    padding-right: 200px;
+}
+
+.remove-btn {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+}
